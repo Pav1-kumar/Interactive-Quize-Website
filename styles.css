@@ -1,4 +1,75 @@
-.btn:hover{
- background-color: rgba(253, 253, 253, 0);
- transform: scale(130%);
-}   
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.intro {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#java-quiz {
+    color: #007bff;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.result {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.result p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.score {
+    color: #007bff;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.quiz {
+    background-color: #007bff;
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+.form-check {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
